@@ -52,17 +52,17 @@ config少**n**
 存在2个空白的条目
 
 ### 3
-`episode8`
-> `npm i react react-dom -S`
-
--S 不需要，据说npm 5.0以后就自动save了
-
 > CSS
 
 下方多空行
 
 ### 4
 `episode7`
+`episode8`
+> `npm i react react-dom -S`
+
+-S 不需要，据说npm 5.0以后就自动save了
+
 
 ## 疑惑
 ### 1
