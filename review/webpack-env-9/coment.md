@@ -63,6 +63,20 @@ config少**n**
 
 -S 不需要，据说npm 5.0以后就自动save了
 
+### 5
+`episode8`
+> ```
+> module.exports = {
+>   //others
+>  externals: {
+>    react: 'React',
+>    'react-dom': 'ReactDOM',
+>  },
+>  //others}
+> ```
+
+最后一个括号前少一个换行
+
 
 ## 疑惑
 ### 1
@@ -87,9 +101,16 @@ vs插件和安装库各自什么作用？两者都需要？同一家人家的？
 
 自动修正后还是有错, 最前面会产生一个空格
 
-###
+### 4 
 `episode7`
 
 > `npx browserslist ">0.2%, not dead, ie >= 11, not op_mini all"`
 
 没显示什么信息？
+
+### 5
+`episode8`
+> eslint 正常。
+> 再build呢？又错了。在这里，箭头函数要被当作 class 的属性来看待，为的是 this 不能指向 undefined
+
+不配plugins，eslint还是会报错。所以最后统一说比较好。
